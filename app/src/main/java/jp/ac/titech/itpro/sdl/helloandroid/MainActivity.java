@@ -5,6 +5,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     private TextView outputView; private EditText inputName;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState); setContentView(R.layout.activity_main); outputView = findViewById(R.id.output_view); inputName = findViewById(R.id.input_name);
